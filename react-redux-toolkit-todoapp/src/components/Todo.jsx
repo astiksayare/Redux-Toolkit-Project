@@ -22,7 +22,7 @@ const Todo = () => {
                 <button
                 onClick={() => dispatch(deleteTodo(todo.id))}
                 className="p-4 px-8 rounded-r-lg text-white bg-red-500"
-                >Add</button>
+                >Delete</button>
             </div>
         ))}
         </>
